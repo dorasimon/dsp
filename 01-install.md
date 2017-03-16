@@ -48,13 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I have Python 2 on my Windows and Python 3 on my Mac. I first installed Python 2 because I first learned Python 2, and now I installed Python 3 because it's recommended and encouraged.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python --version
 
  
 
