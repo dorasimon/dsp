@@ -60,7 +60,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Emacs, because I will have the same editor experience across graphical and non-graphical environments.
 
 --
 
@@ -68,6 +68,4 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
+>> Emacs, because I use it as the terminal editor. Emacs seems better than Vim. Emacs has input completion by hitting tab; Emacs has Tetris, calculator, calendar built in; Emacs can spilt windows. Ctrl+K: cut line, Ctrl+Space: begin selectio, Ctrl+W: cut selection, Ctrl+Y: paste, Meta+Delete: delete word, Ctrl+S: search. Meta+x customize to customize editor.
