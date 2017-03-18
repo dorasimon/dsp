@@ -71,5 +71,5 @@ What graphical editor will you use? How did you make your decision? What are som
 >> Emacs, because I use it as the terminal editor.  
 Emacs seems better than Vim.  
 Emacs has input completion by hitting tab; Emacs has Tetris, calculator, calendar built in; Emacs can spilt windows.  
-Ctrl+K: cut line, Ctrl+Space: begin selectio, Ctrl+W: cut selection, Ctrl+Y: paste, Meta+Delete: delete word, Ctrl+S: search.  
+Ctrl+K: cut line, Ctrl+Space: begin selection, Ctrl+W: cut selection, Ctrl+Y: paste, Meta+Delete: delete word, Ctrl+S: search.  
 Meta+X customize to customize editor.
