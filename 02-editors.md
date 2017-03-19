@@ -89,8 +89,8 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> Emacs, because I use it as the terminal editor.
-Emacs seems better than Vim.
-Emacs has input completion by hitting tab; Emacs has Tetris, calculator, calendar built in; Emacs can spilt windows.
-Ctrl+K: cut line, Ctrl+Space: begin selectio, Ctrl+W: cut selection, Ctrl+Y: paste, Meta+Delete: delete word, Ctrl+S: search.
-Meta+x customize to customize editor.
+>> Emacs, because I use it as the terminal editor.  
+Emacs seems better than Vim.  
+Emacs has input completion by hitting tab; Emacs has Tetris, calculator, calendar built in; Emacs can spilt windows.  
+Ctrl+K: cut line, Ctrl+Space: begin selection, Ctrl+W: cut selection, Ctrl+Y: paste, Meta+Delete: delete word, Ctrl+S: search.  
+Meta+X customize to customize editor.
