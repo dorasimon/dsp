@@ -20,17 +20,17 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 > > pwd: show current working directory path  
-mkdir <directory name>: creating a directory  
-rm -rf <directory name>: deleting a directory  
-touch <file name>: creating a file  
+mkdir directory name: creating a directory  
+rm -rf directory name: deleting a directory  
+touch file name: creating a file  
 rm <file name>: deleting a file  
-mv <file name>: renaming a file  
+mv file name: renaming a file  
 ls -a: listing hidden files
-cp <file name> <directory name>: copying a file  
-pushd <directory name>, popd <directory name>: switching to another directory back and forth  
-find <directory name> -name "<file name>" -print: looking for a file in a directory  
-grep "<something>" <file name>: looking for something in a file  
-cat <file name>: streaming a file to the screen
+cp file name directory name: copying a file  
+pushd directory name, popd directory name: switching to another directory back and forth  
+find directory name -name "file name" -print: looking for a file in a directory  
+grep "something" file name: looking for something in a file  
+cat file name: streaming a file to the screen
 
 ---
 
