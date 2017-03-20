@@ -19,7 +19,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd: show current working directory path  
+mkdir <directory name>: creating a directory  
+rm -rf <directory name>: deleting a directory  
+touch <file name>: creating a file  
+rm <file name>: deleting a file  
+mv <file name>: renaming a file  
+ls -a: listing hidden files
+cp <file name> <directory name>: copying a file  
+pushd <directory name>, popd <directory name>: switching to another directory back and forth  
+find <directory name> -name "<file name>" -print: looking for a file in a directory  
+grep "<something>" <file name>: looking for something in a file  
+cat <file name>: streaming a file to the screen
 
 ---
 
@@ -34,7 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls: listing out the contents of the directory  
+ls -a: listing out all the contents including hidden files  
+ls -l: listing in long format  
+ls -lh: listing in long format and showing sizes in human readable format  
+ls -lah: listing all including hidden files in long format and showing sizes in human readable format  
+ls -t: listing by modification time, newest first  
+ls -Glp: listing with "/" appended to directories in long format, don't print group names
 
 ---
 
@@ -42,7 +59,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -r, ls -t, ls -1, ls -R, ls -x
 
 ---
 
@@ -50,7 +67,5 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
-
+> > xargs builds and executes command lines from standard input.  
+find . -name "*.md" | xargs grep Python
