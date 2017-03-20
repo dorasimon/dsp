@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> Emacs, because I will have the same editor experience across graphical and non-graphical environments.
+>> Emacs and Nano, because they are easy to use. 
 
 --
 
@@ -89,8 +89,8 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> Emacs, because I use it as the terminal editor.  
-Emacs seems better than Vim.  
-Emacs has input completion by hitting tab; Emacs has Tetris, calculator, calendar built in; Emacs can spilt windows.  
-Ctrl+K: cut line, Ctrl+Space: begin selection, Ctrl+W: cut selection, Ctrl+Y: paste, Meta+Delete: delete word, Ctrl+S: search.  
-Meta+X customize to customize editor.
+>> Sublime.  
+A friend recommended it.  
+Sublime has multiple cursors which allow multi-edit.  
+Command+D: select current word, repeat select other occurances, Command+G: select all occurances of current word, Command+F: find, Command+Alt+F: find and replace, Command+KK: delete text from cursor to the end of line, Command+K+Delete: delete text from cursor to the start of line, Command+Left: jump to the start of line, Command+Right: jump to the end of line, Ctrl+G: go to line  
+Preferences/Settings to customize.
