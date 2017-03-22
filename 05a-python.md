@@ -33,14 +33,14 @@ Lists are ordered so elements can be indexed, like: print list.index("element"),
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
 >> Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called "lambda". Lambda is often used in conjunction with typical functional concepts like filter(), map() and reduce().  
-
+  
 Examples:  
 squares = [x ** 2 for x in range(1, 11)]  
 print(list(filter(lambda x: x >= 30 and x <= 70, squares)))  
-
+  
 cubes = [x ** 3 for x in range(1, 11)]  
 print(list(filter(lambda x: x % 3 == 0, cubes)))  
-
+  
 students = [("John", "A", 15), ("Jane", "B", 14), ("Dave", "C", 13)]  
 print(sorted(students, lambda student: student[2]))
 
@@ -51,19 +51,19 @@ print(sorted(students, lambda student: student[2]))
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
 >> List comprehensions provide a concise way to create lists. Common applications are to make new lists where each element is the result of some operations applied to each member of another sequence or iterable, or to create a subsequence of those elements that satisfy a certain condition.  
-
+  
 Examples:  
 The filter() function takes in a function and a list as arguments. The function is called with all the items in the list and a new list is returned which contains items for which the function evaluates to True.  
 my_list = [1, 5, 4, 6, 8, 11, 3, 12]  
 print(list(filter(lambda x: x % 2 == 0, my_list)))  
-
+  
 The map() function takes in a function and a list. The function is called with all the items in the list and a new list is returned which contains items returned by that function for each item.  
 my_list = [1, 5, 4, 6, 8, 11, 3, 12]  
 print(list(map(lambda x: x * 2, my_list)))  
-
+  
 Set comprehension: {expression for element in sequence}  
 {n ** 2 for n in range(10)} or set(n ** 2 for n in range(10))  
-
+  
 Dictionary comprehension: {key: value for (key, value) in iterable}  
 {x: x ** 3 for x i range(10)}
 {x: x ** 3 for x in range(10) if x ** 3 % 4 == 0}
