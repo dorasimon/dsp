@@ -42,7 +42,7 @@ cubes = [x ** 3 for x in range(1, 11)]
 print(list(filter(lambda x: x % 3 == 0, cubes)))  
   
 students = [("John", "A", 15), ("Jane", "B", 14), ("Dave", "C", 13)]  
-print(sorted(students, lambda student: student[2]))
+print(sorted(students, key = lambda student: student[2]))
 
 ---
 
