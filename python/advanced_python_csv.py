@@ -4,6 +4,7 @@ with open("emails.csv", "w") as file:
     fieldnames = ["email"]
     writer = csv.DictWriter(file, fieldnames = fieldnames)
 
+    writer.writeheader()
     writer.writerow({"email": 'bellamys@mail.med.upenn.edu'})
     writer.writerow({"email": 'warren@upenn.edu'})
     writer.writerow({"email": 'bryanma@upenn.edu'})
@@ -40,4 +41,4 @@ with open("emails.csv", "w") as file:
     writer.writerow({"email": 'rxiao@mail.med.upenn.edu'})
     writer.writerow({"email": 'sxie@mail.med.upenn.edu'})
     writer.writerow({"email": 'dxie@upenn.edu'})
-    writer.writerow({"email": 'weiyang@mail.med.upenn.edu'}
+    writer.writerow({"email": 'weiyang@mail.med.upenn.edu'})
