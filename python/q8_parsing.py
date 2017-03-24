@@ -7,11 +7,18 @@
 import csv
 
 with open("football.csv") as file:
-	reader = csv.DictReader(file)
-	minGoals = 50
-	minTeam = None
-	for row in reader:
-		if abs(int(row["Goals"]) - int(row["Goals Allowed"])) < minGoals:
-			minGoals = abs(int(row["Goals"]) - int(row["Goals Allowed"]))
-			minTeam = row["Team"]
-	print(minTeam)
+    reader = csv.DictReader(file)
+    Teams = []
+    diffGoals = []
+    for row in reader:
+        Teams.append(row["Team"])
+        diffGoals.append(abs(int(row["Goals"]) - int(row["Goals Allowed"])))
+    print(Teams)
+    print(diffGoals)
+    print(Teams[diffGoals.index(min(diffGoals))])
+# Another way is to create a dictionary
+    d = dict(zip(Teams, diffGoals))
+    print(d)
+    print(min(d, key = d.get))
+# or
+    print(min(d.items(), key = lambda x: x[1])[0])
