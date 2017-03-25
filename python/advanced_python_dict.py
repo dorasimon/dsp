@@ -33,3 +33,25 @@ d = {}
 for key, value in zip(ln, sub_dte):
     d.setdefault(key, []).append(value)
 print(d)
+
+
+# 7
+
+# Get first name list
+fn = []
+def first_name(N):
+    return N[:N.find(" ")]
+for name in n:
+    fn.append(first_name(name))
+print(fn)
+# Combine first name and last name
+print(tuple(zip(fn, ln)))
+# Create a dictionary with first & last name tuple
+print(dict(zip(tuple(zip(fn, ln)), sub_dte)))
+
+
+#8
+
+# Create a dictionary based on alphabetical order of first names
+df = sorted(dict(zip(tuple(zip(fn, ln)), sub_dte)).items(), key = lambda x: x[0][0])
+print(dict(df))
