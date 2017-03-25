@@ -1,4 +1,4 @@
-#6
+# 6
 
 import csv
 
@@ -21,6 +21,7 @@ with open("faculty.csv") as file:
 # Split it by 3
 sub_dte = [dte[i:i + 3] for i in range(0, len(dte), 3)]
 print(sub_dte)
+print(len(sub_dte))
 # Get last name list
 def last_name(N):
     return N[N.rfind(" ") + 1:]
@@ -46,7 +47,7 @@ for name in n:
 print(fn)
 # Combine first name and last name
 print(tuple(zip(fn, ln)))
-# Create a dictionary with first & last name tuple
+# Create a dictionary with first & last name tuple, which is based on alphabetical order of last names
 print(dict(zip(tuple(zip(fn, ln)), sub_dte)))
 
 
