@@ -65,7 +65,7 @@ Set comprehension: {expression for element in sequence}
 {n ** 2 for n in range(10)} or set(n ** 2 for n in range(10))  
   
 Dictionary comprehension: {key: value for (key, value) in iterable}  
-{x: x ** 3 for x i range(10)}
+{x: x ** 3 for x in range(10)}  
 {x: x ** 3 for x in range(10) if x ** 3 % 4 == 0}
 
 ---
