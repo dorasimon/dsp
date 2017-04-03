@@ -7,7 +7,6 @@ B = np.array([[1, -1], [0, 1]])
 C = np.array([[5, -1], [9, 1], [6, 0]])
 D = np.array([[3, -2, -1], [1, 2, 3]])
 u = np.array([6, 2, -3, 5])
-v = np.array([3, 5, -1, 4])
 w = np.array([[1], [8], [0], [5]])
 
 print(A.shape)
