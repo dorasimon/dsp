@@ -5,5 +5,5 @@
 On average first babies are 0.12 lbs lighter than other babies.  
 
 >> CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)  
--0.088672927072602006  
+-0.088672927072602006  
 Cohen's D of weight is slightly greater than Cohen's D of pregnancy length.
