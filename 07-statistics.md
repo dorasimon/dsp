@@ -91,8 +91,8 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> Frequentist inference is a type of statistical inference that draws conclusions from sample data by emphasizing the frequency or proportion of the data. An alternative name is frequentist statistics. This is the inference framework in which the well-established methodologies of statistical hypothesis testing and confidence intervals are based.  
-Bayesian inference is a method of statistical inference in which Bayes' theorem is used to update the probability for a hypothesis as more evidence or information becomes available.  
+>> Frequentist inference is a type of statistical inference that draws conclusions from sample data by emphasizing the frequency or proportion of the data.  
+Bayesian inference is a method of statistical inference in which Bayes' theorem is used to update the probability for a hypothesis as more evidence or information becomes available.  
 
 ---
 
